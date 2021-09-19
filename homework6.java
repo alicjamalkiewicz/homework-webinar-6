@@ -25,7 +25,7 @@ public class homework6 {
         System.out.println("---EXCERCISE---3---");
         System.out.println("---a---");
         int[] Array10 = new int[21];
-        for (int i = -11; i >= 10; i++) {
+        for (int i = -10; i <= 10; i++) {
             Array10[i] = i + 1;
             System.out.println(Arrays.toString(Array10));
             System.out.println(Array10[5]);
